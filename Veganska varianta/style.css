@@ -78,6 +78,16 @@ body {
 
 .recept-nazev {
     margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.doporucujeme h2 {
+    font-size: 28px;
+}
+
+.recepty h2 {
+    font-size: 18px;
 }
 
 .recept-meta {
@@ -85,7 +95,12 @@ body {
     justify-content: space-between;
 }
 
-@media (min-width: 540px) {
+.recept-kategorie, .recept-komentare {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (min-width: 480px) {
     .hlavni-recept, .recept {
         padding: 20px;
     }
@@ -107,9 +122,17 @@ body {
     .recept:nth-child(2n+1) {
         border-right: 1px solid white;
     }
+
+    .doporucujeme h2 {
+        font-size: 36px;
+    }
+
+    .recepty h2 {
+        font-size: 22px;
+    }
 }
 
-@media (min-width: 960px) { 
+@media (min-width: 860px) { 
     .doporucujeme {
         display: flex;
     }
@@ -118,10 +141,22 @@ body {
         min-height: 400px;
         flex-basis: 33.3%;
         border-right: 1px solid white;
+        min-width: calc(100% / 3);
     }
 
     .recept {
         min-height: 200px;
     }
     
+    .recept-nazev {
+        font-size: 48px;
+    }
+
+    .doporucujeme h2 {
+        font-size: 48px;
+    }
+
+    .recepty h2 {
+        font-size: 28px;
+    }
 }
