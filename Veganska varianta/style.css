@@ -42,24 +42,24 @@ body {
 }
 
 .hlavni-recept {
-    background-image: url(images/salat.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/salat.jpg);
     min-height: 200px;
 }
 
 .recept2 {
-    background-image: url(images/chlebicek.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/chlebicek.jpg);
 }
 
 .recept3 {
-    background-image: url(images/tacos.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/tacos.jpg);
 }
 
 .recept4 {
-    background-image: url(images/cizrna.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/cizrna.jpg);
 }
 
 .recept5 {
-    background-image: url(images/burger.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/burger.jpg);
 }
 
 .recept {
